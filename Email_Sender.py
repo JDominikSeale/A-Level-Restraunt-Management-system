@@ -5,8 +5,8 @@ import smtplib
 
 
 def emailSend(customerEmail, order, customerPaid, ID):
-    myEmail = 'georgndragon@gmail.com'
-    password = 'BurnleyPassword7'
+    myEmail = '########'
+    password = '#######'
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
     s.login(myEmail, password)
